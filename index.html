@@ -1,0 +1,959 @@
+<!DOCTYPE html>
+<html lang="fr" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Brahim Khalil | Performance Marketing Specialist &amp; Media Buyer Growth Lead</title>
+  <meta name="description" content="Portfolio d'élite de Brahim Khalil - Spécialiste acquisition payante Meta Ads & TikTok Ads, Creative Testing Sandbox (80+/mois) et Scaling E-commerce.">
+
+  <!-- Google Fonts : Plus Jakarta Sans (UI) & JetBrains Mono (Données financières & Monospace) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          colors: {
+            canvas: '#0A0D14',
+            surface: '#121824',
+            surfaceElevated: '#172032',
+            surfaceBorder: '#1E293B',
+            canvasInner: '#05070B',
+            emeraldProfit: '#10B981',
+            emeraldGlow: 'rgba(16, 185, 129, 0.15)',
+          },
+          fontFamily: {
+            sans: ['"Plus Jakarta Sans"', 'system-ui', 'sans-serif'],
+            mono: ['"JetBrains Mono"', 'ui-monospace', 'monospace']
+          },
+          boxShadow: {
+            'glow-emerald': '0 0 35px -5px rgba(16, 185, 129, 0.25)',
+            'glow-emerald-lg': '0 0 55px 0px rgba(16, 185, 129, 0.35)',
+            'inner-glow': 'inset 0 1px 0 0 rgba(255, 255, 255, 0.05)',
+            'terminal': '0 20px 40px -15px rgba(0, 0, 0, 0.8), 0 0 0 1px #1E293B'
+          }
+        }
+      }
+    }
+  </script>
+
+  <!-- Lucide Icons CDN -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+
+  <style>
+    /* Rendu ultra-net des captures d'écran sans étirement ni flou */
+    .crisp-capture {
+      image-rendering: -webkit-optimize-contrast;
+      image-rendering: crisp-edges;
+      object-fit: contain;
+      max-width: 100%;
+      height: auto;
+      display: block;
+      margin: 0 auto;
+    }
+
+    /* Grille d'arrière-plan Fintech vectorielle */
+    .fintech-grid {
+      background-size: 40px 40px;
+      background-image: 
+        linear-gradient(to right, rgba(30, 41, 59, 0.3) 1px, transparent 1px),
+        linear-gradient(to bottom, rgba(30, 41, 59, 0.3) 1px, transparent 1px);
+    }
+    
+    .radial-vignette {
+      background: radial-gradient(circle at 50% 0%, rgba(16, 185, 129, 0.1) 0%, rgba(10, 13, 20, 0) 70%);
+    }
+
+    .glass-card {
+      background: linear-gradient(180deg, rgba(18, 24, 36, 0.95) 0%, rgba(14, 19, 29, 0.95) 100%);
+      backdrop-filter: blur(12px);
+    }
+
+    /* Scrollbar personnalisée */
+    ::-webkit-scrollbar { width: 8px; height: 8px; }
+    ::-webkit-scrollbar-track { background: #0A0D14; }
+    ::-webkit-scrollbar-thumb { background: #1E293B; border-radius: 4px; }
+    ::-webkit-scrollbar-thumb:hover { background: #10B981; }
+  </style>
+</head>
+
+<body class="bg-canvas text-slate-200 font-sans antialiased selection:bg-emeraldProfit selection:text-canvas min-h-screen relative overflow-x-hidden fintech-grid">
+
+  <!-- Halo d'ambiance supérieur -->
+  <div class="absolute top-0 left-1/2 -translate-x-1/2 w-full max-w-7xl h-[600px] radial-vignette pointer-events-none -z-10"></div>
+
+  <!-- ========================================== -->
+  <!-- 0. HEADER FIXE                             -->
+  <!-- ========================================== -->
+  <header class="sticky top-0 z-40 w-full border-b border-surfaceBorder/80 bg-canvas/90 backdrop-blur-md">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+      
+      <!-- Identité & Statut -->
+      <div class="flex items-center space-x-4">
+        <a href="#" class="group flex items-center space-x-3">
+          <div class="w-10 h-10 rounded-lg bg-surface border border-surfaceBorder flex items-center justify-center text-emeraldProfit font-mono font-bold text-lg group-hover:border-emeraldProfit/60 transition-all duration-200 shadow-sm">
+            BK
+          </div>
+          <div>
+            <div class="flex items-center space-x-2">
+              <span class="text-base font-bold text-white tracking-tight">Brahim Khalil</span>
+              <span class="hidden sm:inline-flex items-center px-1.5 py-0.5 rounded text-[10px] font-mono uppercase bg-surfaceElevated border border-surfaceBorder text-slate-400">
+                PRO
+              </span>
+            </div>
+            <p class="text-xs text-slate-400 font-mono hidden md:block">Performance Marketing Specialist &amp; Growth Lead</p>
+          </div>
+        </a>
+
+        <!-- Pastille pulsante statut -->
+        <div class="hidden xl:flex items-center space-x-2 pl-4 border-l border-surfaceBorder/80">
+          <span class="relative flex h-2.5 w-2.5">
+            <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-emeraldProfit opacity-75"></span>
+            <span class="relative inline-flex rounded-full h-2.5 w-2.5 bg-emeraldProfit"></span>
+          </span>
+          <span class="text-xs font-mono text-emeraldProfit font-medium tracking-wide">
+            Open for Q4 Scaling
+          </span>
+        </div>
+      </div>
+
+      <!-- Navigation d'ancrage -->
+      <nav class="hidden lg:flex items-center space-x-8 text-xs font-mono tracking-wider uppercase">
+        <a href="#track-record" class="text-slate-400 hover:text-white transition-colors">Track Record</a>
+        <a href="#case-study" class="text-slate-400 hover:text-white transition-colors">Case Study</a>
+        <a href="#preuves-visuelles" class="text-slate-400 hover:text-white transition-colors">Preuves Visuelles</a>
+        <a href="#methodology" class="text-slate-400 hover:text-white transition-colors">4 Piliers</a>
+      </nav>
+
+      <!-- CTA WhatsApp Direct Proéminent -->
+      <div class="flex items-center space-x-3">
+        <a href="https://wa.me/213660405957" target="_blank" rel="noopener noreferrer"
+           class="group relative inline-flex items-center justify-center px-4 py-2.5 rounded-lg bg-surface border border-emeraldProfit/40 hover:border-emeraldProfit text-emeraldProfit font-mono text-xs sm:text-sm font-semibold shadow-inner-glow hover:shadow-glow-emerald transition-all duration-300">
+          <i data-lucide="message-square" class="w-4 h-4 mr-2 text-emeraldProfit shrink-0"></i>
+          <span class="font-sans font-medium text-white group-hover:text-emeraldProfit transition-colors mr-1.5 hidden xs:inline">WhatsApp:</span>
+          <span class="text-emeraldProfit font-mono">+213 660 40 59 57</span>
+        </a>
+      </div>
+    </div>
+
+    <!-- Bannière mobile statut -->
+    <div class="xl:hidden flex items-center justify-center py-1.5 px-4 bg-surface/90 border-t border-surfaceBorder/60">
+      <div class="flex items-center space-x-2">
+        <span class="relative flex h-2 w-2">
+          <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-emeraldProfit opacity-75"></span>
+          <span class="relative inline-flex rounded-full h-2 w-2 bg-emeraldProfit"></span>
+        </span>
+        <span class="text-[11px] font-mono text-emeraldProfit font-medium">
+          Open for Q4 Scaling
+        </span>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- ========================================== -->
+    <!-- 1. HERO SECTION                            -->
+    <!-- ========================================== -->
+    <section class="relative pt-16 pb-20 md:pt-28 md:pb-32 overflow-hidden border-b border-surfaceBorder">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        
+        <div class="flex justify-center mb-8">
+          <div class="inline-flex items-center space-x-3 px-3.5 py-1.5 rounded-full bg-surface border border-surfaceBorder text-slate-300 text-xs font-mono shadow-sm">
+            <span class="w-2 h-2 rounded-full bg-emeraldProfit"></span>
+            <span class="text-slate-400">BM Protocol:</span>
+            <span class="text-white font-medium">Meta Ads &amp; TikTok Ads Verified Operations</span>
+            <span class="text-slate-600">|</span>
+            <span class="text-emeraldProfit font-semibold">Tier 3 Spend</span>
+          </div>
+        </div>
+
+        <div class="text-center max-w-4xl mx-auto">
+          <h1 class="text-3xl sm:text-5xl lg:text-6xl font-extrabold text-white tracking-tight leading-[1.12]">
+            Architecture Média &amp; <br class="hidden sm:inline" />
+            <span class="text-transparent bg-clip-text bg-gradient-to-r from-emeraldProfit via-emerald-400 to-teal-200">
+              Engineering de Croissance
+            </span> E-commerce
+          </h1>
+          
+          <p class="mt-8 text-base sm:text-lg md:text-xl text-slate-300 leading-relaxed font-normal max-w-3xl mx-auto">
+            Spécialiste de l'acquisition payante <span class="text-white font-medium">(Meta Ads &amp; TikTok Ads)</span>. Déploiement de structures de test systématiques <span class="text-emeraldProfit font-mono font-medium">(80+ créatives/mois)</span>, découpage multi-avatars et scaling consolidé à fort rendement net.
+          </p>
+
+          <div class="mt-10 flex flex-col sm:flex-row items-center justify-center gap-4 sm:gap-6">
+            <a href="https://wa.me/213660405957" target="_blank" rel="noopener noreferrer"
+               class="w-full sm:w-auto inline-flex items-center justify-center px-8 py-4 rounded-xl bg-emeraldProfit text-canvas font-bold text-sm sm:text-base tracking-wide hover:bg-emerald-400 transition-all duration-300 shadow-glow-emerald hover:scale-[1.02]">
+              <i data-lucide="phone-call" class="w-5 h-5 mr-3 stroke-[2.5]"></i>
+              <span>Échanger sur WhatsApp (+213 660 40 59 57)</span>
+            </a>
+
+            <a href="#preuves-visuelles" 
+               class="w-full sm:w-auto inline-flex items-center justify-center px-8 py-4 rounded-xl bg-surface border border-surfaceBorder hover:border-slate-500 text-white font-mono text-sm tracking-wide transition-all duration-200 hover:bg-surfaceElevated">
+              <i data-lucide="shield-check" class="w-4 h-4 mr-2.5 text-emeraldProfit"></i>
+              <span>Inspecter les 3 Captures Réelles</span>
+            </a>
+          </div>
+
+          <div class="mt-14 pt-8 border-t border-surfaceBorder/60 flex flex-wrap items-center justify-center gap-6 sm:gap-12 text-xs font-mono text-slate-400">
+            <div class="flex items-center space-x-2">
+              <i data-lucide="check-circle" class="w-4 h-4 text-emeraldProfit"></i>
+              <span>BM Créé &amp; Actif depuis Mars 2021</span>
+            </div>
+            <div class="flex items-center space-x-2">
+              <i data-lucide="trending-up" class="w-4 h-4 text-emeraldProfit"></i>
+              <span>ROAS Achat certifié jusqu'à 61.64x</span>
+            </div>
+            <div class="flex items-center space-x-2">
+              <i data-lucide="zap" class="w-4 h-4 text-emeraldProfit"></i>
+              <span>Coût par Achat dès 0,35 $</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ========================================== -->
+    <!-- 2. TRACK RECORD                            -->
+    <!-- ========================================== -->
+    <section id="track-record" class="py-20 bg-canvas relative">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        
+        <div class="flex flex-col md:flex-row md:items-end justify-between mb-12">
+          <div>
+            <div class="flex items-center space-x-2 text-xs font-mono text-emeraldProfit uppercase tracking-wider mb-2">
+              <i data-lucide="activity" class="w-4 h-4"></i>
+              <span>Hard Data &amp; Capital Efficiency</span>
+            </div>
+            <h2 class="text-2xl sm:text-4xl font-bold text-white tracking-tight">Track Record Validé</h2>
+          </div>
+          <div class="mt-4 md:mt-0 text-xs font-mono text-slate-400">
+            Opérations réelles • Données Ads Manager &amp; Données Comptables
+          </div>
+        </div>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+          
+          <div class="glass-card rounded-2xl p-6 border border-surfaceBorder hover:border-emeraldProfit/40 transition-all duration-300">
+            <div class="flex justify-between items-start mb-6">
+              <div class="w-10 h-10 rounded-lg bg-surfaceElevated border border-surfaceBorder flex items-center justify-center text-emeraldProfit">
+                <i data-lucide="dollar-sign" class="w-5 h-5"></i>
+              </div>
+              <span class="text-[10px] font-mono text-slate-400 uppercase tracking-widest px-2 py-0.5 bg-surface border border-surfaceBorder rounded">Meta &amp; TikTok</span>
+            </div>
+            <div class="font-mono text-3xl sm:text-4xl font-bold text-white tracking-tight">
+              $500K+
+            </div>
+            <div class="mt-2 text-xs font-mono font-semibold text-slate-300 uppercase tracking-wider">
+              Total Ad Spend Managed
+            </div>
+            <p class="mt-3 text-xs text-slate-400 leading-relaxed">
+              Dépenses publicitaires directes pilotées sur Meta Ads et TikTok Ads sans interruption de compte.
+            </p>
+          </div>
+
+          <div class="glass-card rounded-2xl p-6 border border-surfaceBorder hover:border-emeraldProfit/40 transition-all duration-300">
+            <div class="flex justify-between items-start mb-6">
+              <div class="w-10 h-10 rounded-lg bg-surfaceElevated border border-surfaceBorder flex items-center justify-center text-emeraldProfit">
+                <i data-lucide="trending-up" class="w-5 h-5"></i>
+              </div>
+              <span class="text-[10px] font-mono text-slate-400 uppercase tracking-widest px-2 py-0.5 bg-surface border border-surfaceBorder rounded">Net Ratio</span>
+            </div>
+            <div class="font-mono text-3xl sm:text-4xl font-bold text-emeraldProfit tracking-tight">
+              3.4x MER
+            </div>
+            <div class="mt-2 text-xs font-mono font-semibold text-slate-300 uppercase tracking-wider">
+              Blended Efficiency Ratio
+            </div>
+            <p class="mt-3 text-xs text-slate-400 leading-relaxed">
+              Rendement net global moyen préservé en phase d'accélération budgétaire agressive.
+            </p>
+          </div>
+
+          <div class="glass-card rounded-2xl p-6 border border-surfaceBorder hover:border-emeraldProfit/40 transition-all duration-300">
+            <div class="flex justify-between items-start mb-6">
+              <div class="w-10 h-10 rounded-lg bg-surfaceElevated border border-surfaceBorder flex items-center justify-center text-emeraldProfit">
+                <i data-lucide="layers" class="w-5 h-5"></i>
+              </div>
+              <span class="text-[10px] font-mono text-slate-400 uppercase tracking-widest px-2 py-0.5 bg-surface border border-surfaceBorder rounded">Cadence</span>
+            </div>
+            <div class="font-mono text-3xl sm:text-4xl font-bold text-white tracking-tight">
+              80+ / Mois
+            </div>
+            <div class="mt-2 text-xs font-mono font-semibold text-slate-300 uppercase tracking-wider">
+              Creative Variations Tested
+            </div>
+            <p class="mt-3 text-xs text-slate-400 leading-relaxed">
+              Hooks, ruptures visuelles et démos testés en sandbox isolée pour éliminer toute fatigue publicitaire.
+            </p>
+          </div>
+
+          <div class="glass-card rounded-2xl p-6 border border-surfaceBorder hover:border-emeraldProfit/40 transition-all duration-300">
+            <div class="flex justify-between items-start mb-6">
+              <div class="w-10 h-10 rounded-lg bg-surfaceElevated border border-surfaceBorder flex items-center justify-center text-emeraldProfit">
+                <i data-lucide="arrow-down-right" class="w-5 h-5"></i>
+              </div>
+              <span class="text-[10px] font-mono text-slate-400 uppercase tracking-widest px-2 py-0.5 bg-surface border border-surfaceBorder rounded">Tunnel CRO</span>
+            </div>
+            <div class="font-mono text-3xl sm:text-4xl font-bold text-emeraldProfit tracking-tight">
+              -32% CPA
+            </div>
+            <div class="mt-2 text-xs font-mono font-semibold text-slate-300 uppercase tracking-wider">
+              Acquisition Cost Reduction
+            </div>
+            <p class="mt-3 text-xs text-slate-400 leading-relaxed">
+              Compression des coûts d'acquisition post-alignement du message match et de l'offre d'accueil.
+            </p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================== -->
+    <!-- 3. SIGNATURE CASE STUDY                    -->
+    <!-- ========================================== -->
+    <section id="case-study" class="py-24 bg-surface/50 border-y border-surfaceBorder relative">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        
+        <div class="max-w-3xl mb-16">
+          <div class="inline-flex items-center space-x-2 text-xs font-mono text-emeraldProfit uppercase tracking-wider mb-3">
+            <i data-lucide="crosshair" class="w-4 h-4"></i>
+            <span>Architecture &amp; Scaling Breakdown</span>
+          </div>
+          <h2 class="text-2xl sm:text-4xl font-extrabold text-white tracking-tight">
+            Scaling E-commerce : Casser le plafond d'un produit mono-audience
+          </h2>
+          <p class="mt-4 text-slate-400 text-sm sm:text-base leading-relaxed">
+            Protocole complet appliqué pour briser la stagnation budgétaire et sécuriser un ROAS pérenne.
+          </p>
+        </div>
+
+        <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
+          
+          <!-- Phase 01 -->
+          <div class="glass-card rounded-2xl p-7 border border-surfaceBorder flex flex-col justify-between">
+            <div>
+              <div class="flex items-center justify-between pb-4 border-b border-surfaceBorder">
+                <span class="font-mono text-xs font-bold text-rose-400 uppercase tracking-wider flex items-center space-x-1.5">
+                  <span class="w-2 h-2 rounded-full bg-rose-500"></span>
+                  <span>01. The Bottleneck</span>
+                </span>
+                <span class="text-xs font-mono text-slate-500">Diagnostic</span>
+              </div>
+              
+              <h3 class="mt-6 text-lg font-bold text-white tracking-tight">
+                Plafond de dépenses &amp; fatigue aiguë
+              </h3>
+
+              <div class="mt-4 p-4 rounded-xl bg-canvas border border-surfaceBorder font-mono text-xs text-slate-300 space-y-2">
+                <div class="flex justify-between">
+                  <span class="text-slate-500">Palier de blocage:</span>
+                  <span class="text-rose-400 font-bold">$15K – $20K / mois</span>
+                </div>
+                <div class="flex justify-between">
+                  <span class="text-slate-500">Dérive du CPA:</span>
+                  <span class="text-rose-400 font-bold">+45% d'inflation</span>
+                </div>
+                <div class="flex justify-between">
+                  <span class="text-slate-500">Saturation:</span>
+                  <span class="text-slate-300">Mono-créa / Angle unique</span>
+                </div>
+              </div>
+
+              <p class="mt-5 text-xs text-slate-400 leading-relaxed">
+                E-commerçant bloqué sur un produit unique. Dès que le budget journalier dépassait 600 $, la fréquence augmentait en flèche, l'algorithme saturait l'audience restreinte et le CPA s'envolait.
+              </p>
+            </div>
+
+            <div class="mt-8 pt-4 border-t border-surfaceBorder/60 flex items-center space-x-2 text-xs font-mono text-rose-400">
+              <i data-lucide="alert-octagon" class="w-4 h-4 shrink-0"></i>
+              <span>Érosion continue de la marge nette</span>
+            </div>
+          </div>
+
+          <!-- Phase 02 -->
+          <div class="glass-card rounded-2xl p-7 border border-emeraldProfit/40 flex flex-col justify-between shadow-glow-emerald">
+            <div>
+              <div class="flex items-center justify-between pb-4 border-b border-surfaceBorder">
+                <span class="font-mono text-xs font-bold text-emeraldProfit uppercase tracking-wider flex items-center space-x-1.5">
+                  <span class="w-2 h-2 rounded-full bg-emeraldProfit"></span>
+                  <span>02. The Testing Engine</span>
+                </span>
+                <span class="text-xs font-mono text-emeraldProfit">Protocole Isolé</span>
+              </div>
+              
+              <h3 class="mt-6 text-lg font-bold text-white tracking-tight">
+                Sandbox ABO Multi-Avatars &amp; Angles
+              </h3>
+
+              <div class="mt-4 space-y-2.5 font-mono text-xs">
+                <div class="p-3 rounded-lg bg-surfaceElevated border border-surfaceBorder text-slate-300">
+                  <span class="text-emeraldProfit font-bold">1. Segmentation :</span> Découpage en 3 personas acheteurs bien distincts.
+                </div>
+                <div class="p-3 rounded-lg bg-surfaceElevated border border-surfaceBorder text-slate-300">
+                  <span class="text-emeraldProfit font-bold">2. Test Massif :</span> 80+ déclinaisons/mois (Problème direct, Curiosité visuelle, Démo muette, Preuve sociale).
+                </div>
+                <div class="p-3 rounded-lg bg-surfaceElevated border border-surfaceBorder text-slate-300">
+                  <span class="text-emeraldProfit font-bold">3. Consolidation :</span> Migration des vainqueurs en CBO avec règles strictes de coupure.
+                </div>
+              </div>
+
+              <p class="mt-5 text-xs text-slate-400 leading-relaxed">
+                Isolation stricte des variables dans un bac à sable budgétaire. Aucune interférence avec les campagnes d'échelle. Coupure au seuil exact de rentabilité.
+              </p>
+            </div>
+
+            <div class="mt-8 pt-4 border-t border-surfaceBorder/60 flex items-center space-x-2 text-xs font-mono text-emeraldProfit">
+              <i data-lucide="check-circle" class="w-4 h-4 shrink-0"></i>
+              <span>Pipeline créatif alimenté sans interruption</span>
+            </div>
+          </div>
+
+          <!-- Phase 03 -->
+          <div class="glass-card rounded-2xl p-7 border border-surfaceBorder flex flex-col justify-between">
+            <div>
+              <div class="flex items-center justify-between pb-4 border-b border-surfaceBorder">
+                <span class="font-mono text-xs font-bold text-cyan-400 uppercase tracking-wider flex items-center space-x-1.5">
+                  <span class="w-2 h-2 rounded-full bg-cyan-400"></span>
+                  <span>03. The Outcome</span>
+                </span>
+                <span class="text-xs font-mono text-slate-500">Rendement Net</span>
+              </div>
+              
+              <h3 class="mt-6 text-lg font-bold text-white tracking-tight">
+                Triplement du Spend &amp; Rentabilité Boostée
+              </h3>
+
+              <div class="mt-4 p-4 rounded-xl bg-canvas border border-surfaceBorder space-y-3 font-mono">
+                <div class="flex items-center justify-between">
+                  <span class="text-xs text-slate-400">Volume Dépenses :</span>
+                  <span class="text-sm font-bold text-white">x3.2 (CPA Stable)</span>
+                </div>
+                <div class="w-full bg-surfaceBorder h-1.5 rounded-full overflow-hidden">
+                  <div class="bg-cyan-400 h-full rounded-full" style="width: 100%"></div>
+                </div>
+
+                <div class="flex items-center justify-between pt-1">
+                  <span class="text-xs text-slate-400">Blended MER Net :</span>
+                  <span class="text-sm font-bold text-emeraldProfit">3.4x Blended</span>
+                </div>
+                <div class="w-full bg-surfaceBorder h-1.5 rounded-full overflow-hidden">
+                  <div class="bg-emeraldProfit h-full rounded-full" style="width: 88%"></div>
+                </div>
+
+                <div class="flex items-center justify-between pt-1">
+                  <span class="text-xs text-slate-400">Panier Moyen (AOV) :</span>
+                  <span class="text-sm font-bold text-white">+28% post-bundle</span>
+                </div>
+                <div class="w-full bg-surfaceBorder h-1.5 rounded-full overflow-hidden">
+                  <div class="bg-blue-400 h-full rounded-full" style="width: 75%"></div>
+                </div>
+              </div>
+
+              <p class="mt-5 text-xs text-slate-400 leading-relaxed">
+                Le compte a pu absorber des budgets 3,2x plus élevés sans dégrader le ROI grâce à la pluralité créative et au travail post-clic sur l'offre.
+              </p>
+            </div>
+
+            <div class="mt-8 pt-4 border-t border-surfaceBorder/60 flex items-center space-x-2 text-xs font-mono text-cyan-400">
+              <i data-lucide="zap" class="w-4 h-4 shrink-0"></i>
+              <span>Plafond brisé de manière pérenne</span>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ========================================== -->
+    <!-- 4. SECTION "PREUVES VISUELLES"             -->
+    <!-- (LES 3 CAPTURES AVEC UPLOAD DE SECOURS)    -->
+    <!-- ========================================== -->
+   <!-- PROOF OF WORK : 3 CAPTURES AVEC LIENS DIRECTS ET VÉRIFICATION -->
+  <section id="proof-of-work" class="py-20 bg-surface/30 border-t border-border">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6">
+      
+      <div class="mb-14">
+        <div class="inline-flex items-center gap-2 text-emeraldSignal font-mono text-xs uppercase tracking-widest mb-2">
+          <i data-lucide="shield-check" class="w-3.5 h-3.5"></i>
+          <span>Vérification On-Chain / Business Manager</span>
+        </div>
+        <h2 class="text-2xl sm:text-4xl font-bold text-white tracking-tight">Preuves Visuelles & Rapports Publicitaires</h2>
+        <p class="text-slate-400 text-sm sm:text-base mt-2">Extraits directs certifiés attestant de l'historique et des performances des campagnes.</p>
+      </div>
+
+      <!-- PREUVE 01 : HISTORIQUE 2021 -->
+      <div class="bg-surface border border-border rounded-2xl p-6 sm:p-8 mb-10">
+        <div class="flex flex-col md:flex-row items-start md:items-center justify-between gap-4 mb-6">
+          <div>
+            <div class="inline-flex items-center gap-2 px-3 py-1 rounded bg-emeraldSignal/10 text-emeraldSignal font-mono text-xs font-bold border border-emeraldSignal/20 mb-2">
+              PREUVE 01 • ACTIF DEPUIS LE 19 MARS 2021
+            </div>
+            <h3 class="text-lg font-bold text-white">Historique Business Manager (5+ Ans d'Exécution)</h3>
+            <p class="text-xs text-slate-400 mt-1">Traversée continue de toutes les évolutions d'algorithmes Meta.</p>
+          </div>
+          <a href="https://i.postimg.cc/gxbQ6dph/history-2021-png.png" target="_blank" class="text-xs font-mono text-emeraldSignal hover:underline inline-flex items-center gap-1.5">
+            <span>Ouvrir en plein écran</span>
+            <i data-lucide="external-link" class="w-3.5 h-3.5"></i>
+          </a>
+        </div>
+        <div class="rounded-xl overflow-hidden border border-border bg-[#05070B] p-2 flex justify-center items-center">
+          <img 
+            src="https://i.postimg.cc/gxbQ6dph/history-2021-png.png" 
+            alt="Historique Meta Ads Manager 2021" 
+            class="max-w-full h-auto max-h-[450px] object-contain mx-auto rounded"
+            style="image-rendering: -webkit-optimize-contrast;"
+          >
+        </div>
+      </div>
+
+      <!-- PREUVES 02 & 03 -->
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+        
+        <!-- PREUVE 02 : RAPPORT DÉPENSES & PUBS -->
+        <div class="bg-surface border border-border rounded-2xl p-6 flex flex-col justify-between">
+          <div>
+            <div class="flex items-center justify-between mb-4">
+              <span class="font-mono text-xs text-slate-400 uppercase">Preuve 02 • Meilleures Publicités</span>
+              <a href="https://i.postimg.cc/bZfW28Pk/report-1-png.png" target="_blank" class="text-[11px] font-mono text-emeraldSignal hover:underline flex items-center gap-1.5">
+                <span>Plein écran</span>
+                <i data-lucide="external-link" class="w-3 h-3"></i>
+              </a>
+            </div>
+            <h4 class="text-base font-bold text-white mb-2">Rapport Dépenses & Volumes d'Achats</h4>
+            <p class="text-xs text-slate-400 mb-6">Métriques d'acquisition et maîtrise du coût par résultat (CPA net).</p>
+          </div>
+          <div class="rounded-xl overflow-hidden border border-border bg-[#05070B] p-2 flex justify-center items-center min-h-[220px]">
+            <img 
+              src="https://i.postimg.cc/bZfW28Pk/report-1-png.png" 
+              alt="Rapport dépenses et meilleures publicités" 
+              class="max-w-full h-auto max-h-[350px] object-contain mx-auto rounded"
+              style="image-rendering: -webkit-optimize-contrast;"
+              onerror="this.style.display='none'; this.nextElementSibling.style.display='block';"
+            >
+            <!-- Secours automatique si indisponible -->
+            <div class="hidden w-full font-mono text-xs p-4 bg-surface/80 rounded border border-border">
+              <div class="text-emeraldSignal mb-2 font-bold">DONNÉES CERTIFIÉES DU RAPPORT :</div>
+              <div class="text-slate-300">Ad 01 : 1 482,50 $ dépensés • 852 achats • CPA 1,74 $ • ROAS 4,12x</div>
+              <div class="text-slate-300 mt-1">Ad 02 : 1 197,30 $ dépensés • 614 achats • CPA 1,95 $ • ROAS 3,68x</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- PREUVE 03 : INDICATEURS CTA & ACTION -->
+        <div class="bg-surface border border-border rounded-2xl p-6 flex flex-col justify-between">
+          <div>
+            <div class="flex items-center justify-between mb-4">
+              <span class="font-mono text-xs text-slate-400 uppercase">Preuve 03 • Indicateurs CTA</span>
+              <a href="https://i.postimg.cc/w1YZsHz1/report-2-png.png" target="_blank" class="text-[11px] font-mono text-emeraldSignal hover:underline flex items-center gap-1.5">
+                <span>Plein écran</span>
+                <i data-lucide="external-link" class="w-3 h-3"></i>
+              </a>
+            </div>
+            <h4 class="text-base font-bold text-white mb-2">Taux d'Engagement & Conversion Clics</h4>
+            <p class="text-xs text-slate-400 mb-6">Maintien de l'attention (Hook Rate) et conversion sur appel à l'action.</p>
+          </div>
+          <div class="rounded-xl overflow-hidden border border-border bg-[#05070B] p-2 flex justify-center items-center min-h-[220px]">
+            <img 
+              src="https://i.postimg.cc/w1YZsHz1/report-2-png.png" 
+              alt="Rapport indicateurs CTA et conversion" 
+              class="max-w-full h-auto max-h-[350px] object-contain mx-auto rounded"
+              style="image-rendering: -webkit-optimize-contrast;"
+              onerror="this.style.display='none'; this.nextElementSibling.style.display='block';"
+            >
+            <!-- Secours automatique si indisponible -->
+            <div class="hidden w-full font-mono text-xs p-4 bg-surface/80 rounded border border-border">
+              <div class="text-emeraldSignal mb-2 font-bold">DONNÉES CERTIFIÉES DU RAPPORT :</div>
+              <div class="text-slate-300">Hook Rate (3s) : 38,40 % • CTR Sortant : 2,85 %</div>
+              <div class="text-slate-300 mt-1">Taux de conversion sur clic : 6,12 %</div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+            <!-- Dashboard des indicateurs créatifs (Hook rate / CTR / CVR) -->
+            <div class="p-6 bg-surface grid grid-cols-1 md:grid-cols-3 gap-4 border-t border-surfaceBorder/60">
+              <div class="p-4 rounded-xl bg-canvas border border-surfaceBorder font-mono">
+                <div class="flex justify-between items-center text-xs text-slate-400 mb-1">
+                  <span>Hook Rate (3s view) :</span>
+                  <span class="text-emeraldProfit font-bold text-sm">38,40 %</span>
+                </div>
+                <div class="text-[11px] text-slate-500 mb-2">Benchmark marché 25,00 % (<span class="text-emeraldProfit font-semibold">+53,6%</span>)</div>
+                <div class="w-full bg-surfaceBorder h-1.5 rounded-full overflow-hidden">
+                  <div class="bg-emeraldProfit h-full rounded-full" style="width: 76%"></div>
+                </div>
+              </div>
+
+              <div class="p-4 rounded-xl bg-canvas border border-surfaceBorder font-mono">
+                <div class="flex justify-between items-center text-xs text-slate-400 mb-1">
+                  <span>CTR Sortant :</span>
+                  <span class="text-emeraldProfit font-bold text-sm">2,85 %</span>
+                </div>
+                <div class="text-[11px] text-slate-500 mb-2">Benchmark marché 1,50 % (<span class="text-emeraldProfit font-semibold">+90,0%</span>)</div>
+                <div class="w-full bg-surfaceBorder h-1.5 rounded-full overflow-hidden">
+                  <div class="bg-emeraldProfit h-full rounded-full" style="width: 95%"></div>
+                </div>
+              </div>
+
+              <div class="p-4 rounded-xl bg-canvas border border-surfaceBorder font-mono">
+                <div class="flex justify-between items-center text-xs text-slate-400 mb-1">
+                  <span>Taux de conversion clic :</span>
+                  <span class="text-emeraldProfit font-bold text-sm">6,12 %</span>
+                </div>
+                <div class="text-[11px] text-slate-500 mb-2">Benchmark marché 3,50 % (<span class="text-emeraldProfit font-semibold">+74,8%</span>)</div>
+                <div class="w-full bg-surfaceBorder h-1.5 rounded-full overflow-hidden">
+                  <div class="bg-emeraldProfit h-full rounded-full" style="width: 87%"></div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ========================================== -->
+    <!-- 5. FRAMEWORK 4 PILIERS & TECH STACK       -->
+    <!-- ========================================== -->
+    <section id="methodology" class="py-24 bg-surface/40 border-t border-surfaceBorder relative">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        
+        <div class="max-w-3xl mb-16">
+          <div class="inline-flex items-center space-x-2 text-xs font-mono text-emeraldProfit uppercase tracking-wider mb-3">
+            <i data-lucide="cpu" class="w-4 h-4"></i>
+            <span>System Architecture</span>
+          </div>
+          <h2 class="text-2xl sm:text-4xl font-extrabold text-white tracking-tight">
+            The Performance Engine (4 Piliers)
+          </h2>
+          <p class="mt-4 text-slate-400 text-sm sm:text-base leading-relaxed">
+            Mécanique systématique garantissant la rentabilité du capital média investi sans dépendre de coups d'éclat éphémères.
+          </p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-16">
+          
+          <div class="glass-card rounded-2xl p-8 border border-surfaceBorder hover:border-emeraldProfit/40 transition-all duration-300">
+            <div class="flex items-center justify-between mb-6">
+              <span class="font-mono text-xs font-bold text-emeraldProfit px-2.5 py-1 bg-surfaceElevated border border-surfaceBorder rounded">
+                PILIER 01
+              </span>
+              <span class="font-mono text-xs text-slate-500">80+ itérations / mois</span>
+            </div>
+            <h3 class="text-xl font-bold text-white tracking-tight mb-3">
+              Creative Testing Sandbox
+            </h3>
+            <p class="text-slate-300 text-xs sm:text-sm leading-relaxed mb-6">
+              Isolation des variables dans un bac ABO étanche : 1 variation = 1 seule variable modifiée (Hook 3s, Angle persona, CTA final ou Sonorisation). Zéro risque de cannibalisation sur les campagnes principales.
+            </p>
+            <div class="border-t border-surfaceBorder/60 pt-4 font-mono text-xs text-slate-400 space-y-1.5">
+              <div class="flex items-center text-slate-300">
+                <i data-lucide="check" class="w-3.5 h-3.5 text-emeraldProfit mr-2 shrink-0"></i>
+                <span>Arrêt du scroll maximisé (Hook Rate &gt; 35%)</span>
+              </div>
+              <div class="flex items-center text-slate-300">
+                <i data-lucide="check" class="w-3.5 h-3.5 text-emeraldProfit mr-2 shrink-0"></i>
+                <span>Élimination complète de la fatigue créative</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="glass-card rounded-2xl p-8 border border-surfaceBorder hover:border-emeraldProfit/40 transition-all duration-300">
+            <div class="flex items-center justify-between mb-6">
+              <span class="font-mono text-xs font-bold text-emeraldProfit px-2.5 py-1 bg-surfaceElevated border border-surfaceBorder rounded">
+                PILIER 02
+              </span>
+              <span class="font-mono text-xs text-slate-500">Automation &amp; Scaling</span>
+            </div>
+            <h3 class="text-xl font-bold text-white tracking-tight mb-3">
+              Architecture &amp; Scaling Rules
+            </h3>
+            <p class="text-slate-300 text-xs sm:text-sm leading-relaxed mb-6">
+              Consolidation des vainqueurs validés dans des campagnes CBO à fort budget. Injection continue de signaux Advantage+. Automatisation des règles de coupure au seuil exact de CPA pour couper net les sous-performances.
+            </p>
+            <div class="border-t border-surfaceBorder/60 pt-4 font-mono text-xs text-slate-400 space-y-1.5">
+              <div class="flex items-center text-slate-300">
+                <i data-lucide="check" class="w-3.5 h-3.5 text-emeraldProfit mr-2 shrink-0"></i>
+                <span>Scaling vertical &amp; horizontal simultané</span>
+              </div>
+              <div class="flex items-center text-slate-300">
+                <i data-lucide="check" class="w-3.5 h-3.5 text-emeraldProfit mr-2 shrink-0"></i>
+                <span>Garantie de non-gaspillage budgétaire</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="glass-card rounded-2xl p-8 border border-surfaceBorder hover:border-emeraldProfit/40 transition-all duration-300">
+            <div class="flex items-center justify-between mb-6">
+              <span class="font-mono text-xs font-bold text-emeraldProfit px-2.5 py-1 bg-surfaceElevated border border-surfaceBorder rounded">
+                PILIER 03
+              </span>
+              <span class="font-mono text-xs text-slate-500">Post-Click CRO</span>
+            </div>
+            <h3 class="text-xl font-bold text-white tracking-tight mb-3">
+              Funnel Engineering &amp; CRO
+            </h3>
+            <p class="text-slate-300 text-xs sm:text-sm leading-relaxed mb-6">
+              L'acquisition média ne s'arrête pas au clic. Alignement strict du "Message Match" entre l'accroche publicitaire et la page d'atterrissage mobile. Optimisation de l'ergonomie, temps de chargement &lt; 1,2s, et construction d'offres bundle pour hausser l'AOV.
+            </p>
+            <div class="border-t border-surfaceBorder/60 pt-4 font-mono text-xs text-slate-400 space-y-1.5">
+              <div class="flex items-center text-slate-300">
+                <i data-lucide="check" class="w-3.5 h-3.5 text-emeraldProfit mr-2 shrink-0"></i>
+                <span>Hausse mesurée de +28% de panier moyen</span>
+              </div>
+              <div class="flex items-center text-slate-300">
+                <i data-lucide="check" class="w-3.5 h-3.5 text-emeraldProfit mr-2 shrink-0"></i>
+                <span>Expérience mobile fluide sans abandon panier</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="glass-card rounded-2xl p-8 border border-surfaceBorder hover:border-emeraldProfit/40 transition-all duration-300">
+            <div class="flex items-center justify-between mb-6">
+              <span class="font-mono text-xs font-bold text-emeraldProfit px-2.5 py-1 bg-surfaceElevated border border-surfaceBorder rounded">
+                PILIER 04
+              </span>
+              <span class="font-mono text-xs text-slate-500">Comptabilité Réelle</span>
+            </div>
+            <h3 class="text-xl font-bold text-white tracking-tight mb-3">
+              Unit Economics &amp; Data Tracking
+            </h3>
+            <p class="text-slate-300 text-xs sm:text-sm leading-relaxed mb-6">
+              Pilotage exclusif par le profit net réel et le Blended MER (Marketing Efficiency Ratio). Infrastructure de tracking solide : Meta Conversions API (CAPI) côté serveur, GA4, et réconciliation comptable des cohortes.
+            </p>
+            <div class="border-t border-surfaceBorder/60 pt-4 font-mono text-xs text-slate-400 space-y-1.5">
+              <div class="flex items-center text-slate-300">
+                <i data-lucide="check" class="w-3.5 h-3.5 text-emeraldProfit mr-2 shrink-0"></i>
+                <span>Attribution serveur résistante à iOS 14.5+</span>
+              </div>
+              <div class="flex items-center text-slate-300">
+                <i data-lucide="check" class="w-3.5 h-3.5 text-emeraldProfit mr-2 shrink-0"></i>
+                <span>Alignement parfait avec le compte bancaire</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Tech Stack Badge Bar -->
+        <div class="glass-card rounded-2xl p-6 border border-surfaceBorder">
+          <div class="flex flex-col md:flex-row items-center justify-between gap-6">
+            <div class="flex items-center space-x-3">
+              <i data-lucide="terminal" class="w-5 h-5 text-emeraldProfit"></i>
+              <span class="font-mono text-xs text-white font-semibold uppercase tracking-wider">
+                Tech Stack &amp; Attribution Protocol
+              </span>
+            </div>
+            <div class="flex flex-wrap items-center justify-center gap-3 font-mono text-xs">
+              <span class="px-3 py-1 rounded-md bg-canvas border border-surfaceBorder text-slate-300">Meta Ads Manager</span>
+              <span class="px-3 py-1 rounded-md bg-canvas border border-surfaceBorder text-slate-300">TikTok Ads Center</span>
+              <span class="px-3 py-1 rounded-md bg-canvas border border-surfaceBorder text-slate-300">Meta Conversions API (CAPI)</span>
+              <span class="px-3 py-1 rounded-md bg-canvas border border-surfaceBorder text-slate-300">Google Analytics 4</span>
+              <span class="px-3 py-1 rounded-md bg-canvas border border-surfaceBorder text-slate-300">Shopify / Headless</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ========================================== -->
+    <!-- 6. FOOTER / CONTACT DIRECT WHATSAPP        -->
+    <!-- ========================================== -->
+    <footer id="contact" class="py-24 bg-canvas border-t border-surfaceBorder relative overflow-hidden">
+      <div class="absolute bottom-0 left-1/2 -translate-x-1/2 w-full max-w-5xl h-96 bg-emeraldProfit/10 blur-[130px] rounded-full pointer-events-none -z-10"></div>
+
+      <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+        
+        <div class="inline-flex items-center space-x-2 px-3.5 py-1.5 rounded-full bg-surface border border-emeraldProfit/40 text-emeraldProfit text-xs font-mono mb-8">
+          <span class="relative flex h-2 w-2">
+            <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-emeraldProfit opacity-75"></span>
+            <span class="relative inline-flex rounded-full h-2 w-2 bg-emeraldProfit"></span>
+          </span>
+          <span>Disponible pour Audits Q4 &amp; Scaling de Comptes</span>
+        </div>
+
+        <h2 class="text-3xl sm:text-5xl lg:text-6xl font-extrabold text-white tracking-tight leading-tight">
+          Prêt à débloquer votre prochain <br />
+          <span class="text-transparent bg-clip-text bg-gradient-to-r from-emeraldProfit via-emerald-400 to-teal-300">
+            palier de rentabilité ?
+          </span>
+        </h2>
+        
+        <p class="mt-6 text-base sm:text-lg text-slate-300 max-w-2xl mx-auto leading-relaxed">
+          Audit complet de votre Business Manager, diagnostic de la fatigue créative et proposition d'architecture média sous 48h.
+        </p>
+
+        <!-- Bouton CTA WhatsApp Proéminent -->
+        <div class="mt-10 max-w-xl mx-auto">
+          <a href="https://wa.me/213660405957" target="_blank" rel="noopener noreferrer"
+             class="group relative flex items-center justify-center w-full px-8 py-5 rounded-2xl bg-emeraldProfit text-canvas font-bold text-lg sm:text-xl tracking-wide shadow-glow-emerald-lg hover:bg-emerald-400 hover:scale-[1.02] active:scale-[0.99] transition-all duration-300 overflow-hidden">
+            <div class="absolute inset-0 -translate-x-full group-hover:translate-x-full transition-transform duration-1000 bg-gradient-to-r from-transparent via-white/30 to-transparent"></div>
+            <i data-lucide="message-circle" class="w-7 h-7 mr-3.5 stroke-[2.5] text-canvas"></i>
+            <span class="flex items-center space-x-2">
+              <span>Discuter sur WhatsApp :</span>
+              <span class="font-mono font-black underline decoration-canvas/40 underline-offset-4">+213 660 40 59 57</span>
+            </span>
+          </a>
+        </div>
+
+        <div class="mt-8 flex flex-wrap items-center justify-center gap-6 text-xs font-mono text-slate-400">
+          <span class="flex items-center">
+            <i data-lucide="clock" class="w-3.5 h-3.5 mr-1.5 text-emeraldProfit"></i>
+            Réponse garantie en moins de 2 heures
+          </span>
+          <span class="text-slate-600">•</span>
+          <span class="flex items-center">
+            <i data-lucide="shield-check" class="w-3.5 h-3.5 mr-1.5 text-emeraldProfit"></i>
+            Confidentialité Totale / NDA
+          </span>
+        </div>
+
+        <div class="mt-20 pt-8 border-t border-surfaceBorder/80 flex flex-col sm:flex-row items-center justify-between text-xs text-slate-500 font-mono gap-4">
+          <div class="flex items-center space-x-2 text-slate-400">
+            <span class="text-white font-bold">Brahim Khalil</span>
+            <span>•</span>
+            <span>Performance Marketing Specialist &amp; Growth Lead</span>
+            <span>•</span>
+            <span class="text-slate-400">Alger, Algérie</span>
+          </div>
+
+          <div class="text-[11px] text-slate-600">
+            Fintech Dark Mode UI • Captures Natives Vectorielles &amp; Fallback Interactif
+          </div>
+        </div>
+
+      </div>
+    </footer>
+  </main>
+
+  <!-- ========================================== -->
+  <!-- BOUTON FLOTTANT WHATSAPP                   -->
+  <!-- ========================================== -->
+  <aside class="fixed bottom-6 right-6 z-40">
+    <a href="https://wa.me/213660405957" target="_blank" rel="noopener noreferrer"
+       aria-label="Contacter Brahim Khalil sur WhatsApp"
+       class="group flex items-center bg-surface border border-emeraldProfit/60 hover:border-emeraldProfit text-white p-3.5 sm:px-4 sm:py-3 rounded-full shadow-glow-emerald transition-all duration-300 hover:scale-105">
+      <span class="relative flex h-3 w-3 mr-3">
+        <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-emeraldProfit opacity-75"></span>
+        <span class="relative inline-flex rounded-full h-3 w-3 bg-emeraldProfit"></span>
+      </span>
+      <i data-lucide="message-square" class="w-5 h-5 text-emeraldProfit mr-2"></i>
+      <span class="font-mono text-xs font-semibold text-emeraldProfit hidden sm:inline">
+        +213 660 40 59 57
+      </span>
+    </a>
+  </aside>
+
+  <!-- ========================================== -->
+  <!-- MODALE PLEIN ÉCRAN HAUTE DÉFINITION (LIGHTBOX) -->
+  <!-- ========================================== -->
+  <div id="lightbox-modal" 
+       class="fixed inset-0 z-50 hidden bg-black/95 backdrop-blur-md flex flex-col items-center justify-center p-4 sm:p-8 transition-opacity duration-300"
+       onclick="closeLightboxOnBackdrop(event)">
+    
+    <div class="w-full max-w-6xl flex items-center justify-between pb-4 border-b border-surfaceBorder/80 mb-4 text-white">
+      <div>
+        <h3 id="lightbox-title" class="text-sm sm:text-base font-bold text-white tracking-tight"></h3>
+        <p id="lightbox-subtitle" class="text-xs text-slate-400 font-mono mt-0.5"></p>
+      </div>
+      <button onclick="closeLightbox()" 
+              aria-label="Fermer la vue plein écran"
+              class="p-2 rounded-lg bg-surface border border-surfaceBorder hover:border-emeraldProfit text-slate-300 hover:text-white transition-colors">
+        <i data-lucide="x" class="w-5 h-5"></i>
+      </button>
+    </div>
+
+    <div class="w-full max-w-6xl max-h-[80vh] overflow-auto flex items-center justify-center p-3 rounded-xl bg-canvasInner border border-surfaceBorder">
+      <img id="lightbox-img" 
+           src="" 
+           alt="Capture haute définition plein écran"
+           class="crisp-capture max-h-[75vh]">
+    </div>
+
+    <div class="mt-3 text-[11px] font-mono text-slate-500">
+      Appuyez sur <kbd class="px-1.5 py-0.5 rounded bg-surface border border-surfaceBorder text-slate-300">Échap</kbd> ou cliquez à l'extérieur pour fermer
+    </div>
+  </div>
+
+  <!-- Scripts JavaScript : Lucide Icons, Lightbox Modal & Chargement Local Instantané -->
+  <script>
+    document.addEventListener("DOMContentLoaded", () => {
+      if (window.lucide) {
+        window.lucide.createIcons();
+      }
+    });
+
+    const modal = document.getElementById('lightbox-modal');
+    const modalImg = document.getElementById('lightbox-img');
+    const modalTitle = document.getElementById('lightbox-title');
+    const modalSubtitle = document.getElementById('lightbox-subtitle');
+
+    function openLightbox(imgId, title, subtitle) {
+      const sourceImg = document.getElementById(imgId);
+      if (!sourceImg) return;
+      
+      modalImg.src = sourceImg.src;
+      modalTitle.textContent = title || "Preuve Visuelle Business Manager";
+      modalSubtitle.textContent = subtitle || "Capture certifiée en haute définition";
+      
+      modal.classList.remove('hidden');
+      document.body.style.overflow = 'hidden';
+      
+      if (window.lucide) {
+        window.lucide.createIcons();
+      }
+    }
+
+    function closeLightbox() {
+      modal.classList.add('hidden');
+      modalImg.src = "";
+      document.body.style.overflow = '';
+    }
+
+    function closeLightboxOnBackdrop(e) {
+      if (e.target === modal) {
+        closeLightbox();
+      }
+    }
+
+    window.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape' && !modal.classList.contains('hidden')) {
+        closeLightbox();
+      }
+    });
+
+    // Chargement instantané d'une image locale choisie par l'utilisateur
+    function loadLocalImage(event, targetImgId, badgeId) {
+      const file = event.target.files[0];
+      if (file) {
+        const reader = new FileReader();
+        reader.onload = function(e) {
+          const img = document.getElementById(targetImgId);
+          if (img) {
+            img.src = e.target.result;
+            const badge = document.getElementById(badgeId);
+            if (badge) {
+              badge.textContent = '✓ Fichier chargé : ' + file.name;
+              badge.classList.remove('hidden');
+            }
+          }
+        };
+        reader.readAsDataURL(file);
+      }
+    }
+  </script>
+</body>
+</html>
